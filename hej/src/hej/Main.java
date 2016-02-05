@@ -5,9 +5,11 @@ public class Main {
 	public static void main(String[] args) {
 		// det här är en fin fil
 
-		for (String string : args) {
-
+		String[] ost = {"banan","ost","kanel"};
+		for (String element : ost) {
+			System.out.println(element);
 		}
+		
 	}
 
 }
